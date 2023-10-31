@@ -1,0 +1,13 @@
+---
+title: "About Siyan Wen"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+## Introduction
+Hello! My name is Siyan( Wendy) Wen. I came from Beijing, China. I am currently a biostatistics MS student at Columbia University, Mailman School of Public Health. Before that, I studied applied mathematics( BS) and biological sciences at University of Connecticut. I started studied fMRI research in 2022 Summers. Now, I am interested in field of brain imaging research, data analysis, data visualization, etc.
+
+\newline
+<img src="images/siyan.jpeg" style="width:75%">  

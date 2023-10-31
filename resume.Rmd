@@ -1,0 +1,95 @@
+---
+title: "Academic and Professional Experience"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+## Education
+#### University of Connecticut, College of Liberal Art and Science             	      
+***Bachelor of Sciences** in Applied Mathematics (Minor in Biological Science)* {August, 2019- May, 2023}  
+ 	
+•	Relevant Courses: Calculus, Applied Linear Algebra, Differential Equation for Application, Probability,   Complex Analysis, Numerical Analysis, Mathematical Analysis, Mathematical Modeling, Genetics, Cell       Biology, General Ecology, Comparative Animal Physiology, etc.
+
+•	Honors: Dean’s List Fall 2019, Spring 2021, Spring 2022 
+
+#### Columbia University, Mailman School of Public Health                                
+***Master of Sciences** in Biostatistics (Public Health Data Science)* {August,2023-present} 
+
+•	Relevant Courses: Biostatistical Methods, Probability, Data Science, SQL, etc.
+
+## Professional Experience
+#### ByteDance, Youzhuju Network Technology Co., LTD                                  
+***Teaching Intern***                                                        {June, 2021- August, 2021} 
+
+•	Designed over a hundred sets of exercises questions for the K-12 mathematics course at Qingbei Online School.  
+
+•	Created slides for broadcast courses which received recognition for presentation and content.  
+
+•	Recorded and edited over 40 courses which were published online.  
+
+•	Analyzed and visualized teaching feedback for six teachers over two terms with Excel.   
+
+#### Department of Mathematics, University of Connecticut                                 
+***Grader**, Worked for Dr. Damin Wu and Dr. Akshat T. Das*                        {September, 2022-May 2023}  
+•	Graded the assignments, quizzes and exams for all sections of application of differential equations course                                                          
+
+## Research Experience
+#### UConn Brain Imaging Research Center (BIRC)  
+
+***Research Student**, Supervised by Dr. Roeland Hancock*                 {September, 2022-May, 2023}  
+
+•	Conducted research on entropy estimation in neuroimaging data.  
+
+•	Presented a summary of spatial entropy approaches used to assess biodiversity  
+
+•	Using the Brain Entropy MATLAB toolbox to compare entropy during language- and non-language tasks. 
+
+#### Data Analysis in Functional Magnetic Resonance Imaging (fMRI) 	  
+
+***Research Student**, Supervised by Dr. Yanmei Tie from Brigham and Women’s Hospital, Harvard Medical School*  {July, 2022-August, 2022}
+
+•	Responsible for fMRI pre-processing, including realignment, coregisteration, segementation, normalization and smoothing by using Statistical Parametric Mapping (SPM) in MATLAB  
+
+•	Proficient in single subject and group-level general linear level and random field theory  
+
+•	Made a final speech: an introduction about SRPBS rs-fMRI database and a deep learning system for psychiatry disorder diagnosis.   
+
+•	Finished a co-author article called Review on the Application of Artificial Intelligence in Bioinformatics.   
+
+
+#### Ionizing Radiation-Induced Metabolic Effects	  
+
+***Research Student**, Supervised by Dr. Guangming Zhou from State Key Laboratory of Radiation Medicine and Protection, School of Radiation Medicine and Protection, Soochow University*  {May, 2022-May, 2023} 
+
+•	Investigated how ionizing radiation impacts metabolism in the organism.  
+
+•	Finished an overview on Ionizing Radiation-induced Metabolic Effects. 
+
+#### Mathematical Modeling in Biology and Biomedical Science        	
+***Research Student**, Supervised by Dr. Trachette Jackson from University of Michigan*  {April, 2022-June, 2022}  
+
+•	Familiar with classical biomathematical models including logistic growth, Lotka-Volterra predator-prey model and competing species models.  
+
+•	Reviewed mathematical models of cancer growth, tumor-immune interactions and infectious diseases.  
+
+•	Created a modified SIRV model for the transmission of COVID-19 with consideration of reinfection and breakthrough infection.  
+
+•	Qualitative analysis with MATLAB.  
+
+•	Work published as article A Modified SIRV model for COVID-19 currently under review.  
+
+
+## Language and Skills
+Language: Fluent in Mandarin Chinese and English.  
+
+Computer Skills: Microsoft 365, R, MATLAB, LATEX, Python. 
+
+Coursera Courses: Introduction to Programming with MATLAB (Vanderbilt University).  
+
+Hobbies: Running
+
+
+
+
