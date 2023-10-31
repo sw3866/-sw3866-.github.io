@@ -1,0 +1,60 @@
+---
+title: "Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    source: embed
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(p8105.datasets)
+
+library(plotly)
+data("instacart")
+
+library(flexdashboard)
+```
+```{r}
+instacart_aisle = 
+  instacart |> 
+  count(aisle_id,aisle,sort=TRUE) |> 
+  filter(n %in% 10000:50000)|>
+  select(aisle,n)|>
+  mutate(aisle = fct_reorder(aisle, n)) 
+
+instacart_department = 
+  instacart |> 
+  count(aisle,department,sort=TRUE)|>
+  filter(n %in% 10000:50000)|>
+  mutate(department = fct_reorder(department, n))
+```
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+instacart_aisle |> 
+  plot_ly(x = ~aisle, y = ~n, type = "scatter", mode = "markers",
+    color = ~aisle, colors = "viridis")
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+instacart_aisle |> 
+  plot_ly(x = ~aisle, y = ~n, color = ~aisle, type = "bar", colors = "viridis")
+```
+
+### Chart C
+
+```{r}
+instacart_department|> 
+  plot_ly(y = ~n, color = ~department, type = "box", colors = "viridis")
+```
+

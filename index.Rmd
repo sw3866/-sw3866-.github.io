@@ -15,4 +15,5 @@ Welcome to my personal website!
 ## Academic and Professional Experience
 [Link to My Resume Page](resume.html)
 
-## Contact Information
+## Plotly
+[Link to Plotly](plotly.html)

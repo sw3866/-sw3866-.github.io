@@ -1,0 +1,41 @@
+---
+title: "plotly"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+## Plotly
+```{r}
+library(tidyverse)
+library(p8105.datasets)
+
+library(plotly)
+data("instacart")
+```
+
+```{r}
+instacart_aisle = 
+  instacart |> 
+  count(aisle_id,aisle,sort=TRUE) |> 
+  filter(n %in% 10000:50000)|>
+  select(aisle,n)|>
+  mutate(aisle = fct_reorder(aisle, n)) 
+
+instacart_aisle |> 
+  plot_ly(x = ~aisle, y = ~n, type = "scatter", mode = "markers",
+    color = ~aisle, colors = "viridis")
+
+instacart_aisle |> 
+  plot_ly(x = ~aisle, y = ~n, color = ~aisle, type = "bar", colors = "viridis")
+
+instacart_department = 
+  instacart |> 
+  count(aisle,department,sort=TRUE)|>
+  filter(n %in% 10000:50000)|>
+  mutate(department = fct_reorder(department, n)) 
+
+instacart_department|> 
+  plot_ly(y = ~n, color = ~department, type = "box", colors = "viridis")
+```
