@@ -30,7 +30,7 @@ instacart_department =
   filter(n %in% 10000:50000)|>
   mutate(department = fct_reorder(department, n))
 ```
-Column {data-width=650}
+Column {data-width=400}
 -----------------------------------------------------------------------
 
 ### Chart A
@@ -38,23 +38,29 @@ Column {data-width=650}
 ```{r}
 instacart_aisle |> 
   plot_ly(x = ~aisle, y = ~n, type = "scatter", mode = "markers",
-    color = ~aisle, colors = "viridis")
+    color = ~aisle, colors = "viridis")|>
+  layout(title = 'Number of Order for Each aisles',xaxis = list(title = 'Aisles'), 
+         yaxis = list(title = 'Number of Order'))
 ```
 
-Column {data-width=350}
+Column {data-width=400}
 -----------------------------------------------------------------------
 
 ### Chart B
 
 ```{r}
 instacart_aisle |> 
-  plot_ly(x = ~aisle, y = ~n, color = ~aisle, type = "bar", colors = "viridis")
+  plot_ly(x = ~aisle, y = ~n, color = ~aisle, type = "bar", colors = "viridis")|>
+  layout(title = 'Number of Order for Each aisles',xaxis = list(title = 'Aisles'), 
+         yaxis = list(title = 'Number of Order'))
 ```
 
 ### Chart C
 
 ```{r}
 instacart_department|> 
-  plot_ly(y = ~n, color = ~department, type = "box", colors = "viridis")
+  plot_ly(y = ~n, color = ~department, type = "box", colors = "viridis")|>
+  layout(title = 'Number of Order for Each Department',xaxis = list(title = 'Departments'), 
+         yaxis = list(title = 'Number of Order')) 
 ```
 
